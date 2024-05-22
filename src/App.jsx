@@ -1,22 +1,20 @@
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import Home from "./Components/Home"
+import About from "./Components/About"
+import Article from "./Components/Article" 
+import Contactus from "./Components/Contactus" 
 
 function App() {
     return (
-        <>
             <div
-                className="w-full h-screen"
-                style={{
-                    backgroundImage: `url("https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")`,
-                    backgroundSize: "1367px 640px",
-                    backgroundRepeat: "no-repeat",
-                }}
+                className="w-full h-screen bg-sky-600"
+                
             >
-                <Header />
-                <main>{/* outlet */}</main>
-                <Footer />
+                <Header/>
+               
+               <Footer/>
             </div>
-        </>
     );
 }
 
