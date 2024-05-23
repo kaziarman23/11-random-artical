@@ -10,7 +10,7 @@ function Header() {
                             <NavLink
                                 to="/"
                                 className={({ isActive }) => `${
-                                    isActive ? "text-black" : "text-white"
+                                    isActive ? "text-blue-400" : "text-white"
                                 }
                             p-4 cursor-pointer text-white hover:bg-blue-200 hover:text-black rounded-full duration-200`}
                             >
@@ -22,7 +22,7 @@ function Header() {
                                 to="/about"
                                 className={({ isActive }) =>
                                     `${
-                                        isActive ? "text-black" : "text-white"
+                                        isActive ? "text-blue-400" : "text-white"
                                     } p-4 cursor-pointer text-white hover:bg-blue-200 hover:text-black rounded-full duration-200`
                                 }
                             >
@@ -33,7 +33,7 @@ function Header() {
                             <NavLink
                                 to="/article"
                                 className={({ isActive }) => `${
-                                    isActive ? "text-black" : "text-white"
+                                    isActive ? "text-blue-400" : "text-white"
                                 }
                             p-4 cursor-pointer text-white hover:bg-blue-200 hover:text-black rounded-full duration-200`}
                             >
@@ -44,7 +44,7 @@ function Header() {
                             <NavLink
                                 to="/contact-us"
                                 className={({ isActive }) => `${
-                                    isActive ? "text-black" : "text-white"
+                                    isActive ? "text-blue-400" : "text-white"
                                 }
                             p-4 cursor-pointer text-white hover:bg-blue-200 hover:text-black rounded-full duration-200`}
                             >
